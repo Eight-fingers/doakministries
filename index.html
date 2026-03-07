@@ -17,6 +17,9 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://doakministries.org">
   <meta property="og:image" content="https://doakministries.org/images/opengraph_doaklogo.png">
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 </head>
 <body>
   <div class="site-shell">
@@ -215,5 +218,18 @@
   </div>
 
   <script src="js/script.js"></script>
+
+  <script>
+if (window.netlifyIdentity) {
+  window.netlifyIdentity.on("init", user => {
+    if (!user) {
+      window.netlifyIdentity.on("login", () => {
+        document.location.href = "/admin/";
+      });
+    }
+  });
+}
+</script>
+
 </body>
 </html>
