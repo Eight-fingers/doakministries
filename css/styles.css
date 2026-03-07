@@ -347,6 +347,32 @@ ul {
   align-items: center;
 }
 
+/* Founder section */
+
+.founder-photo {
+  width: 100%;
+  max-width: 320px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow);
+}
+
+/* improve vertical rhythm in founder text */
+
+.split-grid.align-start h2 {
+  margin-top: 0.35rem;
+}
+
+.split-grid.align-start p {
+  margin-bottom: 1.1rem;
+}
+
+/* emphasize welcome lines */
+
+.split-grid.align-start p strong {
+  color: var(--brand-deep);
+  font-weight: 600;
+}
+
 .align-start {
   align-items: start;
 }
