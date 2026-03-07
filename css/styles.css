@@ -29,9 +29,12 @@ body {
   font-family: 'Inter', sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at top left, rgba(233, 222, 240, 0.45), transparent 28%),
+    radial-gradient(circle at top left, rgba(233, 222, 240, 0.45), transparent 40%),
     linear-gradient(180deg, #fffdfb 0%, var(--bg) 100%);
   line-height: 1.7;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 a {
@@ -455,6 +458,15 @@ ul {
 
 .footer-links a:hover {
   color: var(--brand);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(0,0,0,0.08);
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
 }
 
 @media (max-width: 980px) {
