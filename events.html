@@ -203,9 +203,11 @@
             start.setHours(0, 0, 0, 0);
 
             const eventData = {
-              title: event.summary,
-              date: start,
-              link: event.htmlLink,
+            title: event.summary,
+            date: start,
+            link: event.htmlLink,
+            location: event.location || "",
+            time: event.start.dateTime || null
             };
 
             if (start >= today) {
@@ -237,10 +239,12 @@
             card.href = event.link;
             card.target = "_blank";
 
-            card.innerHTML = `
-<h3>${event.title}</h3>
-<p>${formatDate(event.date)}</p>
-`;
+          card.innerHTML = `
+          <h3>${event.title}</h3>
+          <p><strong>${formatDate(event.date)}</strong></p>
+          ${event.time ? `<p>${new Date(event.time).toLocaleTimeString([], {hour: 'numeric', minute:'2-digit'})}</p>` : ""}
+          ${event.location ? `<p>${event.location}</p>` : ""}
+          `;
 
             upcomingContainer.appendChild(card);
           });
