@@ -222,7 +222,10 @@ ul {
 
 .lead,
 .section-intro {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-copy .lead {
