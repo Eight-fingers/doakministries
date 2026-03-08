@@ -734,3 +734,12 @@ margin-bottom:1.2rem;
 margin-top:auto;
 }
 
+/* Contact cards mobile layout */
+
+@media (max-width: 768px) {
+
+.contact-grid {
+grid-template-columns: 1fr;
+}
+
+}
