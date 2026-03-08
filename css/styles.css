@@ -631,3 +631,50 @@ transition:transform .25s ease, box-shadow .25s ease;
 transform:translateY(-4px);
 box-shadow:0 14px 30px rgba(0,0,0,.15);
 }
+
+/* ============================= */
+/* Contact Page Button Alignment */
+/* ============================= */
+
+/* Ensure buttons align at bottom of cards */
+.contact-card {
+display:flex;
+flex-direction:column;
+}
+
+.contact-card .btn {
+margin-top:auto;
+}
+
+/* Center button content */
+.btn-full{
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+/* Smooth hover animation */
+.btn{
+transition:all .25s ease;
+}
+
+/* Button hover lift */
+.btn:hover{
+transform:translateY(-2px);
+box-shadow:0 8px 18px rgba(0,0,0,.15);
+}
+
+/* Improve secondary button styling */
+.btn-secondary{
+background:#ece9ef;
+color:#3c2447;
+border:1px solid #e0d9e7;
+}
+
+/* Purple hover state */
+.btn-secondary:hover{
+background:#5b3a6d;
+color:white;
+border-color:#5b3a6d;
+}
