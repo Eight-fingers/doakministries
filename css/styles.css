@@ -711,3 +711,26 @@ transform: translateY(-6px);
 box-shadow: 0 22px 48px rgba(44, 24, 56, 0.18);
 border-color: rgba(79, 47, 97, 0.35);
 }
+
+/* Contact card layout polish */
+
+.contact-grid {
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:25px;
+}
+
+.contact-card {
+display:flex;
+flex-direction:column;
+height:100%;
+}
+
+.contact-card p {
+margin-bottom:1.2rem;
+}
+
+.contact-card .btn {
+margin-top:auto;
+}
+
