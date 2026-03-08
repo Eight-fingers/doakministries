@@ -589,3 +589,45 @@ ul {
   }
 }
 
+/* Contact page grid */
+
+.contact-grid {
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:25px;
+}
+
+/* Equal height cards */
+
+.contact-card {
+display:flex;
+flex-direction:column;
+}
+
+/* Push buttons to bottom */
+
+.contact-card .btn {
+margin-top:auto;
+}
+
+/* Button hover */
+
+.btn {
+transition:all .25s ease;
+}
+
+.btn:hover {
+transform:translateY(-2px);
+box-shadow:0 8px 18px rgba(0,0,0,.15);
+}
+
+/* Card hover */
+
+.card {
+transition:transform .25s ease, box-shadow .25s ease;
+}
+
+.card:hover {
+transform:translateY(-4px);
+box-shadow:0 14px 30px rgba(0,0,0,.15);
+}
