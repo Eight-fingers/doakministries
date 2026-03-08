@@ -743,3 +743,7 @@ grid-template-columns: 1fr;
 }
 
 }
+
+.section.section-tint {
+padding-bottom: 90px;
+}
