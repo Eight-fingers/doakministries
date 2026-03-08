@@ -144,8 +144,9 @@
     <script>
 
     const calendarID = "629db396ee6eafb745c691bb8ffd1a49b25ccd9024bb90b7f4667ba0b314ea85@group.calendar.google.com";
-    const feedURL = `https://www.googleapis.com/calendar/v3/calendars/${calendarID}/events?singleEvents=true&orderBy=startTime&maxResults=50&key=AIzaSyBDIo9rowMafFw8eORcRZEj-An3dIWgI1Q`;
+    
 
+    
     fetch(feedURL)
     .then(res => res.json())
     .then(data => {
