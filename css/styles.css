@@ -305,7 +305,8 @@ ul {
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 6rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.04);
 }
 
 .section-tint {
