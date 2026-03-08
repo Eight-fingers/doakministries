@@ -426,7 +426,8 @@ ul {
   background: linear-gradient(135deg, var(--brand) 0%, var(--brand-deep) 100%);
   color: rgba(255,255,255,0.9);
   padding: 2rem;
-  box-shadow: var(--shadow);
+  box-shadow: 0 18px 40px rgba(79, 47, 97, 0.25);
+  border: 1px solid rgba(255,255,255,0.15);
 }
 
 .accent-panel h2,
@@ -617,7 +618,7 @@ margin-top:auto;
 /* Button hover */
 
 .btn {
-transition:all .25s ease;
+transition: transform .25s ease, box-shadow .25s ease, background .25s ease;
 }
 
 .btn:hover {
