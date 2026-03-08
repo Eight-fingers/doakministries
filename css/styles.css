@@ -678,3 +678,36 @@ background:#5b3a6d;
 color:white;
 border-color:#5b3a6d;
 }
+
+/* CONTACT PAGE CONTENT CENTERING */
+
+.contact-card {
+display:flex;
+flex-direction:column;
+align-items:center;
+text-align:center;
+}
+
+.contact-card h3,
+.contact-card p,
+.contact-card .section-label {
+text-align:center;
+max-width:90%;
+}
+
+.contact-card .btn{
+margin-top:auto;
+align-self:center;
+}
+
+/* Premium card hover effect */
+
+.card {
+transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+
+.card:hover {
+transform: translateY(-6px);
+box-shadow: 0 22px 48px rgba(44, 24, 56, 0.18);
+border-color: rgba(79, 47, 97, 0.35);
+}
