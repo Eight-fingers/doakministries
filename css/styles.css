@@ -127,7 +127,7 @@ ul {
 /* Container holding the logo and the text block */
 .brand {
   display: flex;              /* Places logo and text side-by-side */
-  align-items: center;        /* Vertically aligns logo with text */
+  align-items: flex-start;   /* align text block with top of logo */
   gap: 1.25rem;               /* Space between logo and title block */
   min-width: fit-content;     /* Prevents the logo/text from collapsing */
   flex-shrink: 0;             /* Prevents header nav from squeezing brand */
@@ -150,6 +150,7 @@ ul {
   display: flex;              /* Allows vertical stacking of title + tagline */
   flex-direction: column;     /* Stack title above tagline */
   align-items: center;        /* Center tagline under the title */
+  transform: translateY(2px);   /* subtle optical alignment adjustment */
   min-width: 0;               /* Prevents overflow issues in flex layouts */
 }
 
@@ -197,11 +198,16 @@ ul {
   opacity: 0.65;             /* Softens decoration so text remains primary */
 }
 
+/* ============================= */
+/* TOP NAVIGATION */
+/* ============================= */
+
 .site-nav {
-  display: flex;
-  align-items: center;
-  gap: 1.1rem;
-    flex-wrap: nowrap;
+  display: flex;            /* Places navigation links in a horizontal row */
+  align-items: center;      /* Vertically centers links within nav container */
+  gap: 1.1rem;              /* Space between navigation links */
+  flex-wrap: nowrap;        /* Prevents nav items from wrapping to a second line */
+  transform: translateY(2px); /* Optical alignment: slightly lowers nav so it lines up with the title baseline instead of the logo center */
 }
 
 .site-nav a {
