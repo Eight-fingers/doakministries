@@ -722,11 +722,11 @@ ul {
      Keeps title + tagline visually compact
   ------------------------------------------------------- */
   .brand-text {
-  height: 44px;                 /* matches logo height */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; /* top title / bottom tagline */
-  line-height: 1;
+    height: 44px;                /* match logo height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* top + bottom alignment */
+    line-height: 1;
   }
 
 
