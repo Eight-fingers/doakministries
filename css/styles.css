@@ -123,7 +123,7 @@ ul {
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.95rem;
+  gap: 1.3rem;
   min-width: 0;
 }
 
@@ -142,9 +142,9 @@ ul {
 
 .brand-name {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.55rem;
+  font-size: 1.7rem;
   font-weight: 600;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   color: var(--brand-deep);
 }
 
