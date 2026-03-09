@@ -709,7 +709,7 @@ ul {
      Slightly smaller on phones to avoid wrapping
   ------------------------------------------------------- */
   .brand-name {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   /* -------------------------------------------------------
@@ -719,7 +719,8 @@ ul {
   .brand-tag {
     font-size: 0.65rem;
     letter-spacing: 0.10em;
-    margin-top: 1px;
+    margin-top: 2px;
+    text-align: center;
   }
 
   /* -------------------------------------------------------
@@ -734,6 +735,7 @@ ul {
     line-height: 1.1;
     transform: none;            /* remove desktop optical offset */
   }
+
 
   /* -------------------------------------------------------
      CARD COMPONENT SPACING
