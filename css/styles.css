@@ -593,11 +593,16 @@ ul {
   }
 
   .brand-name {
-    font-size: 0.97rem;
+    font-size: 1.25rem;
   }
 
   .brand-tag {
-    font-size: 0.78rem;
+    font-size: 0.65rem;
+    letter-spacing: 0.10em;
+  }
+
+  .brand-text {
+  line-height: 1.1;
   }
 
   .hero-card,
