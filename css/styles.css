@@ -727,6 +727,7 @@ ul {
     flex-direction: column;
     justify-content: space-between; /* pushes title to top and tagline to bottom */
     line-height: 1;
+    transform: none;            /* remove desktop optical offset */
   }
 
   /* -------------------------------------------------------
