@@ -164,7 +164,7 @@ ul {
 }
 
 .flower {
-  color: var(--accent);
+  color: var(--brand-deep);
   font-size: 0.85em;
   margin: 0 6px;
 }
