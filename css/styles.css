@@ -535,6 +535,10 @@ ul {
   color: #fff;
 }
 
+.accent-panel .section-label {
+  color: var(--accent);
+}
+
 .light {
   color: rgba(255, 255, 255, 0.74);
 }
