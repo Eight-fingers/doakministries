@@ -207,7 +207,6 @@ ul {
   align-items: center;      /* Vertically centers links within nav container */
   gap: 1.1rem;              /* Space between navigation links */
   flex-wrap: nowrap;        /* Prevents nav items from wrapping to a second line */
-  transform: translateY(2px); /* Optical alignment: slightly lowers nav so it lines up with the title baseline instead of the logo center */
 }
 
 .site-nav a {
@@ -630,7 +629,7 @@ ul {
   }
 
   .brand-name {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .brand-tag {
