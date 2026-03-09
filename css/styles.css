@@ -725,8 +725,8 @@ ul {
     height: 44px;                /* match logo height */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    line-height: 1.05;
+    justify-content: space-between; /* pushes title to top and tagline to bottom */
+    line-height: 1;
   }
 
   /* -------------------------------------------------------
