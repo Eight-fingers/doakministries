@@ -140,14 +140,26 @@ ul {
 }
 
 .brand-name {
-  font-weight: 700;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.55rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
   color: var(--brand-deep);
-  letter-spacing: 0.02em;
+}
+
+.brand-script {
+  font-family: "Great Vibes", cursive;
+  font-size: 1.8rem;
+  color: var(--accent);
+  margin-right: 4px;
+  line-height: 1;
 }
 
 .brand-tag {
-  font-size: 0.85rem;
-  color: var(--muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  margin-top: 4px;
 }
 
 .site-nav {
