@@ -143,7 +143,7 @@ ul {
 
 .brand-name {
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.55rem;
+  font-size: 1.35rem;
   font-weight: 600;
   letter-spacing: 0.01em;
   color: var(--brand-deep);
@@ -152,7 +152,7 @@ ul {
 
 .brand-script {
   font-family: "Sacramento", cursive;
-  font-size: 1.6rem;
+  font-size: 1.65rem;
   color: var(--accent);
   margin-right: 4px;
   position: relative;
@@ -160,16 +160,17 @@ ul {
 }
 
 .brand-tag {
-  font-size: 0.72rem;
-  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
   color: var(--accent);
-  margin-top: 1px;
+  margin-top: 4px;
 }
 
 .flower {
   color: var(--brand-deep);
   font-size: 0.85em;
   margin: 0 6px;
+  opacity: 0.65;
 }
 
 .site-nav {
