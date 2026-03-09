@@ -149,11 +149,12 @@ ul {
 }
 
 .brand-script {
-  font-family: "Great Vibes", cursive;
-  font-size: 1.65rem;
-  color: #c97a86;
+  font-family: "Allura", cursive;
+  font-size: 1.8rem;
+  color: var(--accent);
   margin-right: 6px;
-  line-height: 1;
+  position: relative;
+  top: 2px;
 }
 
 .brand-tag {
