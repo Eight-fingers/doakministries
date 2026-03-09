@@ -145,14 +145,14 @@ ul {
   font-family: "Cormorant Garamond", serif;
   font-size: 1.55rem;
   font-weight: 600;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.01em;
   color: var(--brand-deep);
   white-space: nowrap;
 }
 
 .brand-script {
   font-family: "Sacramento", cursive;
-  font-size: 1.55rem;
+  font-size: 1.6rem;
   color: var(--accent);
   margin-right: 4px;
   position: relative;
