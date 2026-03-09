@@ -149,12 +149,12 @@ ul {
 }
 
 .brand-script {
-  font-family: "Parisienne", cursive;
-  font-size: 1.9rem;
+  font-family: "Sacramento", cursive;
+  font-size: 2rem;
   color: var(--accent);
   margin-right: 6px;
   position: relative;
-  top: 1px;
+  top: 2px;
 }
 
 .brand-tag {
