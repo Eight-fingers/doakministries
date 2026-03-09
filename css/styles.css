@@ -387,7 +387,7 @@ ul {
 
 
 .section-purple h2 {
-  color: #ffffff;
+  color: var(--brand-deep);
 }
 
 .section-purple .section-label {
