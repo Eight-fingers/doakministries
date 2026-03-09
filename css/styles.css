@@ -372,10 +372,16 @@ ul {
 /* New purple section on index.html */
 
 .section-purple {
-  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-deep) 100%);
-  border-top: 1px solid rgba(255,255,255,0.15);
-  border-bottom: 1px solid rgba(255,255,255,0.15);
+  background: linear-gradient(
+      180deg,
+      rgba(107, 74, 122, 0.85) 0%,
+      var(--brand) 40%,
+      var(--brand-deep) 100%
+  );
+  border-top: 1px solid rgba(255,255,255,0.12);
+  border-bottom: 1px solid rgba(255,255,255,0.12);
 }
+
 
 .section-purple h2 {
   color: #ffffff;
