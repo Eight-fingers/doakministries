@@ -163,6 +163,12 @@ ul {
   margin-top: 4px;
 }
 
+.flower {
+  color: var(--accent);
+  font-size: 0.85em;
+  margin: 0 6px;
+}
+
 .site-nav {
   display: flex;
   align-items: center;
