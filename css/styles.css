@@ -149,12 +149,12 @@ ul {
 }
 
 .brand-script {
-  font-family: "Allura", cursive;
-  font-size: 1.8rem;
+  font-family: "Parisienne", cursive;
+  font-size: 1.9rem;
   color: var(--accent);
   margin-right: 6px;
   position: relative;
-  top: 2px;
+  top: 1px;
 }
 
 .brand-tag {
