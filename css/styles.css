@@ -537,6 +537,9 @@ ul {
 
 .accent-panel .section-label {
   color: var(--accent);
+    text-shadow:
+    0 1px 0 rgba(50, 25, 63, 0.6),
+    0 2px 4px rgba(50, 25, 63, 0.35);
 }
 
 .light {
