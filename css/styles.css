@@ -714,7 +714,7 @@ ul {
   .brand-tag {
     font-size: 0.65rem;
     letter-spacing: 0.10em;
-    margin-top: 2px;
+    margin-top: 1px;
   }
 
   /* -------------------------------------------------------
@@ -729,6 +729,7 @@ ul {
     line-height: 1;
     transform: none;            /* remove desktop optical offset */
   }
+
 
   /* -------------------------------------------------------
      CARD COMPONENT SPACING
