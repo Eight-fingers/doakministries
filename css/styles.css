@@ -156,7 +156,7 @@ ul {
   color: var(--accent);
   margin-right: 4px;
   position: relative;
-  top: 3px;
+  top: -1px;
 }
 
 .brand-tag {
