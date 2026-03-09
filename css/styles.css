@@ -599,48 +599,141 @@ ul {
   }
 }
 
+/* =========================================================
+   MOBILE STYLES
+   Applies to screens 720px and smaller
+   This controls spacing, typography, and layout adjustments
+   for phones so the site remains readable and balanced.
+   ========================================================= */
+
 @media (max-width: 720px) {
+
+  /* -------------------------------------------------------
+     HERO SECTION SPACING
+     Reduce top/bottom padding so the hero fits better
+     on small screens without excessive whitespace
+  ------------------------------------------------------- */
   .hero-section,
   .page-hero {
-    padding: 4.8rem 0 3rem;
+    padding: 4.5rem 0 2.8rem;
   }
 
+
+  /* -------------------------------------------------------
+     STANDARD SECTION SPACING
+     Slightly tighter than desktop to keep content flowing
+  ------------------------------------------------------- */
   .section {
-    padding: 3.25rem 0;
+    padding: 3rem 0;
   }
 
+
+  /* -------------------------------------------------------
+     MAIN HERO TITLE (H1)
+     Uses clamp so text scales nicely across phones
+     Prevents text from becoming too large or too small
+  ------------------------------------------------------- */
   h1 {
-    font-size: clamp(2.5rem, 12vw, 4rem);
+    font-size: clamp(2.4rem, 11vw, 3.8rem);
   }
 
+
+  /* -------------------------------------------------------
+     SECONDARY HEADINGS (H2)
+     Keeps visual hierarchy under the hero heading
+  ------------------------------------------------------- */
   h2 {
-    font-size: clamp(2rem, 8vw, 2.7rem);
+    font-size: clamp(1.9rem, 7vw, 2.5rem);
   }
 
+
+  /* -------------------------------------------------------
+     BUTTONS
+     Make buttons full width on mobile for easier tapping
+     (standard mobile UX pattern)
+  ------------------------------------------------------- */
   .btn,
   .btn-full {
     width: 100%;
   }
 
+
+  /* -------------------------------------------------------
+     HERO BUTTON STACKING
+     Stack buttons vertically instead of side-by-side
+     to prevent crowding on narrow screens
+  ------------------------------------------------------- */
   .hero-actions,
   .cta-actions {
     flex-direction: column;
     align-items: stretch;
+    gap: 0.75rem;
   }
 
+
+  /* =======================================================
+     HEADER / BRAND ADJUSTMENTS
+     These tweaks improve the balance of the logo, title,
+     and hamburger menu on phones.
+     ======================================================= */
+
+
+  /* -------------------------------------------------------
+     LOGO SIZE
+     Desktop uses ~56px which is large for phones.
+     Reduce slightly so text and menu align better.
+  ------------------------------------------------------- */
+  .brand img {
+    width: 44px;
+    height: 44px;
+  }
+
+  /* -------------------------------------------------------
+     BRAND CONTAINER
+     Reduce space between logo and text for tighter layout
+  ------------------------------------------------------- */
+  .brand {
+    gap: 0.7rem;
+    align-items: center;
+  }
+
+
+  /* -------------------------------------------------------
+     SITE NAME
+     Slightly smaller on phones to avoid wrapping
+  ------------------------------------------------------- */
   .brand-name {
     font-size: 1.25rem;
   }
 
+
+  /* -------------------------------------------------------
+     TAGLINE (Faith ✿ Hope ✿ Healing)
+     Smaller and slightly tighter spacing for readability
+  ------------------------------------------------------- */
   .brand-tag {
     font-size: 0.65rem;
     letter-spacing: 0.10em;
   }
 
+
+  /* -------------------------------------------------------
+     BRAND TEXT STACKING
+     Keeps title + tagline visually compact
+  ------------------------------------------------------- */
   .brand-text {
-  line-height: 1.1;
+  height: 44px;                 /* matches logo height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* top title / bottom tagline */
+  line-height: 1;
   }
 
+
+  /* -------------------------------------------------------
+     CARD COMPONENT SPACING
+     Reduce padding so cards feel proportional on phones
+  ------------------------------------------------------- */
   .hero-card,
   .card,
   .panel,
@@ -648,8 +741,9 @@ ul {
   .list-panel,
   .soft-panel,
   .accent-panel {
-    padding: 1.4rem;
+    padding: 1.35rem;
   }
+
 }
 
 /* Contact page grid */
