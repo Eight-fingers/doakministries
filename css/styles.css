@@ -254,6 +254,7 @@ ul {
 .hero-section,
 .page-hero {
   padding: 6.4rem 0 4.2rem;
+  border-bottom: 1px solid var(--line);
 }
 
 .hero-grid {
