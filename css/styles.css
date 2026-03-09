@@ -123,8 +123,9 @@ ul {
 .brand {
   display: flex;
   align-items: center;
-  gap: 1.3rem;
-  min-width: 0;
+  gap: 1rem;
+  min-width: fit-content;
+  flex-shrink: 0;
 }
 
 .brand img {
@@ -141,11 +142,12 @@ ul {
 }
 
 .brand-name {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.7rem;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.55rem;
   font-weight: 600;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   color: var(--brand-deep);
+  white-space: nowrap;
 }
 
 .brand-script {
@@ -174,6 +176,7 @@ ul {
   display: flex;
   align-items: center;
   gap: 1.1rem;
+    flex-wrap: nowrap;
 }
 
 .site-nav a {
