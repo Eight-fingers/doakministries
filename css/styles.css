@@ -128,7 +128,7 @@ ul {
 .brand {
   display: flex;              /* Places logo and text side-by-side */
   align-items: flex-start;   /* align text block with top of logo */
-  gap: 1.25rem;               /* Space between logo and title block */
+  gap: 1.45rem;               /* Space between logo and title block */
   min-width: fit-content;     /* Prevents the logo/text from collapsing */
   flex-shrink: 0;             /* Prevents header nav from squeezing brand */
 }
@@ -179,7 +179,7 @@ ul {
 /* "Faith ✿ Hope ✿ Healing" line */
 .brand-tag {
   font-size: 0.72rem;        /* Smaller than title to create hierarchy */
-  letter-spacing: 0.12em;    /* Wide spacing for feminine / airy feel */
+  letter-spacing: 0.09em;    /* Wide spacing for feminine / airy feel */
   color: var(--accent);      /* Soft pink accent color */
   margin-top: 1px;           /* Small gap between title and tagline */
   text-align: center;        /* Keeps tagline perfectly centered */
