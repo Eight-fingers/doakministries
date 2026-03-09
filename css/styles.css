@@ -686,6 +686,7 @@ ul {
   .brand img {
     width: 44px;
     height: 44px;
+    object-fit: contain;
   }
 
   /* -------------------------------------------------------
@@ -693,10 +694,10 @@ ul {
      Reduce space between logo and text for tighter layout
   ------------------------------------------------------- */
   .brand {
+    display: flex;
     gap: 0.7rem;
     align-items: center;
   }
-
 
   /* -------------------------------------------------------
      SITE NAME
@@ -706,7 +707,6 @@ ul {
     font-size: 1.25rem;
   }
 
-
   /* -------------------------------------------------------
      TAGLINE (Faith ✿ Hope ✿ Healing)
      Smaller and slightly tighter spacing for readability
@@ -714,8 +714,8 @@ ul {
   .brand-tag {
     font-size: 0.65rem;
     letter-spacing: 0.10em;
+    margin-top: 2px;
   }
-
 
   /* -------------------------------------------------------
      BRAND TEXT STACKING
@@ -725,10 +725,9 @@ ul {
     height: 44px;                /* match logo height */
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* top + bottom alignment */
-    line-height: 1;
+    justify-content: center;
+    line-height: 1.05;
   }
-
 
   /* -------------------------------------------------------
      CARD COMPONENT SPACING
