@@ -123,7 +123,7 @@ ul {
 .brand {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.35rem;
   min-width: fit-content;
   flex-shrink: 0;
 }
@@ -152,18 +152,18 @@ ul {
 
 .brand-script {
   font-family: "Sacramento", cursive;
-  font-size: 2rem;
+  font-size: 1.55rem;
   color: var(--accent);
-  margin-right: 6px;
+  margin-right: 4px;
   position: relative;
-  top: 2px;
+  top: 3px;
 }
 
 .brand-tag {
   font-size: 0.72rem;
   letter-spacing: 0.18em;
   color: var(--accent);
-  margin-top: 4px;
+  margin-top: 1px;
 }
 
 .flower {
