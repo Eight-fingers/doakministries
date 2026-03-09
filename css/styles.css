@@ -136,6 +136,7 @@ ul {
 .brand-text {
   display: flex;
   flex-direction: column;
+  align-items: center;
   min-width: 0;
 }
 
@@ -149,15 +150,15 @@ ul {
 
 .brand-script {
   font-family: "Great Vibes", cursive;
-  font-size: 1.8rem;
-  color: var(--accent);
-  margin-right: 4px;
+  font-size: 1.65rem;
+  color: #c97a86;
+  margin-right: 6px;
   line-height: 1;
 }
 
 .brand-tag {
   font-size: 0.72rem;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.18em;
   color: var(--accent);
   margin-top: 4px;
 }
