@@ -665,9 +665,11 @@ ul {
    ====================================================== */
 
 .contact-context{
-  margin-bottom:2rem;
+  margin:0 auto 2rem auto;
+  max-width:650px;
   line-height:1.7;
   color:#444;
+  text-align:center; /* Center all text inside this block */
 }
 
 .contact-context p{
