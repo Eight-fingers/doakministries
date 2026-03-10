@@ -659,6 +659,29 @@ ul {
   resize:vertical;
 }
 
+/* ======================================================
+   CONTACT PAGE CONTEXT TEXT
+   Support message above the form
+   ====================================================== */
+
+.contact-context{
+  margin-bottom:2rem;
+  line-height:1.7;
+  color:#444;
+}
+
+.contact-context p{
+  margin-bottom:1rem;
+}
+
+.contact-reassurance{
+  font-weight:600;
+}
+
+.contact-hotline{
+  font-size:.95rem;
+  color:#555;
+}
 
 /* ======================================================
    MEDIA START
